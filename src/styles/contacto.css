@@ -1,0 +1,171 @@
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+
+.informacion-contacto {
+    color: white;
+}
+
+.informacion-contacto h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.informacion-contacto p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 70%;
+}
+
+.informacion-contacto span {
+    font-size: 18px;
+    width: 70%;
+    display: block;
+}
+
+
+.contenedor-formulario {
+    padding: 1.5em 2em;
+    width: 500px;
+    height: max-content;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.contenedor-contacto form {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+
+.contenedor-formulario input  {    
+    border-radius: 5px;
+    outline: none;
+}
+
+.input {
+    width: 100%;
+    font-weight: 500;
+    border: solid 2px rgba(165, 42, 42, 0.402);
+    padding: 10px;
+    transition: .5s all;
+}
+
+.input:focus {
+    border: solid 2px brown;
+    outline: none;
+}
+
+.contenedor-formulario label {
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+
+
+.contenedor-formulario textarea {
+    height: 200px;
+    outline: none;
+    font-weight:500;
+    resize: none;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.21);
+}
+
+.boton {
+    display: flex;
+    justify-content: end;
+    width: min-content;
+    margin-left: auto;
+    background-color: brown;
+    color: white;
+    font-weight: 520;
+    padding: 10px 60px;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: rgb(107, 30, 30);
+}
+
+
+.contactos {
+    margin: 5em 0px;
+}
+
+.contactos a {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin: 2em 0px;
+
+}
+
+
+.redes {
+    display: flex;
+    font-size: 30px;
+    margin-top: 3em;
+}
+
+.redes a {
+    margin-right: 30px;
+}
+
+
+.contactos a svg {
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .informacion-contacto h1 {
+        font-size: 30px;
+    }
+
+    .informacion-contacto p,
+    .informacion-contacto span
+    {
+        font-size: 16px;
+    }
+    .contactos a{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 800px ) {
+    .contenedor-contacto {
+        flex-direction: column;
+
+    }
+
+    .contenedor-formulario {
+        width: 450px;
+    }
+
+
+}
+
+@media screen and (max-width: 520px) {
+    .contenedor-formulario {
+        width: auto;
+    
+    }
+
+    .contenedor-contacto {
+        padding: 2em 1em;
+    }
+}

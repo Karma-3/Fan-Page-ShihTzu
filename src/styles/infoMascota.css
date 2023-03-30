@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+.contenedor-info-mascota {
+    display: flex;
+    background-color: beige;
+    margin: 40px 6em;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.contenedor-imagen {
+    background-color: brown;
+    padding: 20px 20px 0px 20px;
+    overflow: hidden;
+    height: fit-content;
+    border-radius: 100%;
+}
+
+.contenedor-info-mascota figure img {
+    width: 27em;
+
+}
+
+.contenedor-info {
+    width: 50%;
+}
+
+
+.contenedor-info h2 {
+    font-size: 42px;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.contenedor-info p {
+    font-size: 20px;
+    margin: 1em 0px;
+    font-weight: 400;
+    color: brown;
+}
+
+@media screen and (max-width: 1330px ) {
+    .contenedor-info-mascota h2{
+        font-size: 35px;
+    }
+
+    .contenedor-info p {
+        font-size: 18px;
+    }
+
+    .contenedor-imagen {
+        height: fit-content;
+    }
+
+    .contenedor-info-mascota figure img {
+        width: 25em;
+    }
+}
+
+
+@media screen and (max-width: 1160px) {
+    .contenedor-info-mascota h2 {
+        font-size: 30px;
+    }
+
+
+    .contenedor-imagen {
+        height: fit-content;
+    }
+    .contenedor-info-mascota {
+        margin: 40px 3em;
+    }
+    .contenedor-info p {
+        font-size: 16px;
+    }
+
+    .contenedor-info-mascota figure img {
+        width: 24em;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .contenedor-info-mascota figure img {
+        width: 18em;
+    }
+
+    .contenedor-info {
+        width: 70%;
+        margin: 0px 50px;
+    }
+
+
+    .contenedor-info h2 {
+        font-size: 18px;
+    }
+    .contenedor-info p {
+        font-size: 13px;
+    }
+
+    .contenedor-imagen {
+        height: fit-content ;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .contenedor-info-mascota {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-imagen figure img {
+        width: 15em;
+    }
+
+    .contenedor-info h2 {
+        font-size: 20px;
+    }
+
+    .contenedor-info {
+        width: 85%;
+    }
+
+    .contenedor-info p {
+        font-size: 15px;
+    }
+
+    
+}

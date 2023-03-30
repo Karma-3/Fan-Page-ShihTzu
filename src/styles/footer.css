@@ -1,0 +1,7 @@
+.redes-sociales a {
+    transition: .5s all;
+}
+
+.redes-sociales a:hover {
+    color: darkgray;
+}
