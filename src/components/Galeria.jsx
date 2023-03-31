@@ -33,7 +33,7 @@ const Galeria = () => {
       <div className="galeria">
       <div data-aos="fade-up">
 
-      <PhotoAlbum layout="masonry" photos={galeria} padding='10' />
+      <PhotoAlbum layout="masonry" photos={galeria} padding='5' />
       </div>
       </div>
     </section>
